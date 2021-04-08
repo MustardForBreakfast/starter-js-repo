@@ -1,6 +1,10 @@
 const foo = "i am foo.";
 
 /**
- * Bar func is bar.
+ * Jsdoc-style docstring.
  */
-const bar = () => {};
+const bar = (baz) => {
+  console.log(baz);
+};
+
+bar(foo);
