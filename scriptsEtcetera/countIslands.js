@@ -113,7 +113,6 @@ const floodTile = (tileMap, coords) => {
     }
     return row;
   });
-  return [[0]];
 };
 
 /**
