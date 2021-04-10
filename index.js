@@ -1,10 +1,3 @@
-const foo = "i am foo.";
-
 /**
- * Jsdoc-style docstring.
+ * A js file to write/play in. Got some linting/autoformatting set up.
  */
-const bar = (baz) => {
-  console.log(baz);
-};
-
-bar(foo);
