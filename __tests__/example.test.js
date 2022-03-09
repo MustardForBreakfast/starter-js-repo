@@ -1,9 +1,10 @@
 /**
  * A template jest test file.
  */
+import { foo } from "../index";
 
-describe("A test function", () => {
+describe("foo test function", () => {
   it("should pass", () => {
-    expect(1).toEqual(1);
+    expect(foo()).toEqual(1);
   });
 });
